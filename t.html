@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahato Electrical Services</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #003366;
+            color: white;
+            padding: 20px;
+            font-size: 28px;
+            font-weight: bold;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .container {
+            padding: 20px;
+        }
+        .intro {
+            background: white;
+            padding: 30px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            animation: fadeSlideIn 1.2s ease-in-out;
+        }
+        @keyframes fadeSlideIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .intro h2 {
+            font-weight: 600;
+            color: #ff6600;
+        }
+        .intro p {
+            font-size: 18px;
+            font-weight: 300;
+            line-height: 1.6;
+            color: #555;
+        }
+        .highlight {
+            color: #ff6600;
+            font-size: 22px;
+            font-weight: bold;
+        }
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        .service-box {
+            background: #003366;
+            color: white;
+            padding: 15px;
+            border-radius: 8px;
+            width: 200px;
+            font-size: 18px;
+            font-weight: bold;
+            transition: transform 0.3s;
+        }
+        .service-box:hover {
+            transform: scale(1.1);
+            background: #ff6600;
+        }
+        .images img {
+            border-radius: 8px;
+            margin: 10px;
+            transition: transform 0.3s;
+        }
+        .images img:hover {
+            transform: scale(1.1);
+        }
+        .contact-info {
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        form {
+            margin-top: 20px;
+        }
+        input, textarea, button {
+            display: block;
+            width: 80%;
+            margin: 10px auto;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        button {
+            background: #ff6600;
+            color: white;
+            font-size: 18px;
+            border: none;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        button:hover {
+            background: #003366;
+        }
+        footer {
+            margin-top: 20px;
+            padding: 15px;
+            background: #003366;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>Mahato Electrical Services</header>
+    <div class="container">
+        <div class="intro">
+            <h2>About Us</h2>
+            <p>With over <span class="highlight">22 years of experience</span>, Mahato Electrical Services is your trusted partner for all electrical needs. We specialize in full building electrical contracts, wiring, installation, and repairs.</p>
+        </div>
+        <h2>Our Services</h2>
+        <div class="services">
+            <div class="service-box">Wiring & Installation</div>
+            <div class="service-box">Home Electrical Repair</div>
+            <div class="service-box">Full Building Contracts</div>
+            <div class="service-box">Appliance Installation</div>
+        </div>
+        <h2>Gallery</h2>
+        <div class="images">
+            <img src="https://source.unsplash.com/250x200/?electrician,tools" alt="Electrician Work">
+            <img src="https://source.unsplash.com/250x200/?electrical,wiring" alt="Wiring Work">
+            <img src="https://source.unsplash.com/250x200/?power,installation" alt="Installation Work">
+        </div>
+        <h2>Contact Us</h2>
+        <div class="contact-info">
+            <p>📞 Phone: 9849207199 / 9813536162</p>
+            <p>📧 Email: mahatoelecticalservices@gmail.com</p>
+        </div>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <input type="text" placeholder="Your Phone Number" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Inquiry</button>
+        </form>
+    </div>
+    <footer>
+        &copy; 2025 Mahato Electrical Services. All rights reserved.
+    </footer>
+</body>
+</html>
